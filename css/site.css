@@ -221,6 +221,11 @@ a.pure-button-primary {
     background: #111;
 }
 
+.spamspan {
+    color: white;
+    text-decoration: none;
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
