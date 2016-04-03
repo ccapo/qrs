@@ -41,7 +41,7 @@ label {
 
 .l-box-lrg {
     padding: 2em;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /*border-bottom: 1px solid rgba(0,0,0,0.1);*/
 }
 
 .is-center {
@@ -231,6 +231,13 @@ a.pure-button-primary {
     text-decoration: none;
 }
 
+/* We want to give the content area some more padding */
+.content {
+  background: #1f8dd6;
+  color: white;
+  padding: 1em;
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -243,11 +250,9 @@ a.pure-button-primary {
         font-size: 16px;
     }
     /* We want to give the content area some more padding */
-    .content {
-        background: #1f8dd6;
+    /*.content {
         padding: 1em;
-        color: white;
-    }
+    }*/
 
     /* We can align the menu header to the left, but float the
     menu items to the right. */
